@@ -14,7 +14,7 @@ function generateRandomNotifications() {
       notification.innerHTML = `
         <div class="notification-header">
           <button class="minimize-btn" onclick="minimizeNotification(this)">–</button>
-          <span>Tràn ngập bộ</span>
+          <span>🎂🎂🎂</span>
         </div>
         <p>${randomMessage}</p>
       `;
