@@ -15,7 +15,15 @@
   <h1>Mình có điều muốn nói</h1>
   <button onclick="generateRandomNotifications()">Nhấn đây nè</button>
   <script src="./script.js"></script>
-<audio controls autoplay> 
-<audio src="Chúc mừng sinh nhật.mp3" controls> </audio>
+
+    <audio id="audioPlayer" src="Chúc mừng sinh nhật.mp3" autoplay loop></audio>
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+            const audio = document.getElementById("audioPlayer");
+            audio.play().catch(error => {
+                console.error("Tự động phát không hoạt động:", error);
+            });
+        });
+    </script>
 </body>
 </html>
