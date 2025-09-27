@@ -1,5 +1,7 @@
 const messages = [
   "Chúc cậu sinh nhật vui vẻ!💐  "
+  "sssssss"
+  "e"
 ];
 
 function generateRandomNotifications() {
@@ -42,5 +44,6 @@ document.addEventListener("DOMContentLoaded", function () {
   footer.innerHTML = encodedText; 
   document.body.appendChild(footer); 
 });
+
 
 
