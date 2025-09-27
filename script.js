@@ -1,7 +1,11 @@
 const messages = [
-  "Chúc cậu sinh nhật vui vẻ!💐  "
-  "sssssss"
-  "e"
+  "Chúc mừng sinh nhật nha! 🎂",
+  "Happy Birthday! Chúc cậu tuổi mới rực rỡ! ✨",
+  "Sinh nhật vui vẻ, hạnh phúc và thành công nhé! 🚀",
+  "Chúc cậu một ngày sinh nhật thật ý nghĩa và đáng nhớ! 💖",
+  "Tuổi mới nhiều niềm vui mới, thắng lợi mới nha! 🥳",
+  "Chúc mọi điều tốt đẹp nhất sẽ đến với cậu trong hôm nay! 🍀",
+  "Luôn vui vẻ, tươi trẻ và yêu đời nhé! 😊"
 ];
 
 function generateRandomNotifications() {
@@ -44,6 +48,7 @@ document.addEventListener("DOMContentLoaded", function () {
   footer.innerHTML = encodedText; 
   document.body.appendChild(footer); 
 });
+
 
 
 
