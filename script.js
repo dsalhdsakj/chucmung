@@ -22,7 +22,7 @@ function generateRandomNotifications() {
       notification.innerHTML = `
         <div class="notification-header">
           <button class="minimize-btn" onclick="minimizeNotification(this)">–</button>
-          <span>🎂🎂🎂</span>
+          <span>Làaa</span>
         </div>
         <p>${randomMessage}</p>
       `;
@@ -33,7 +33,7 @@ function generateRandomNotifications() {
       notification.style.top = `${y}px`;
 
       document.body.appendChild(notification);
-    }, i * 500);
+    }, i * 350);
   }
 }
 
@@ -48,3 +48,4 @@ document.addEventListener("DOMContentLoaded", function () {
   footer.innerHTML = encodedText; 
   document.body.appendChild(footer); 
 });
+
