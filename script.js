@@ -33,7 +33,7 @@ function generateRandomNotifications() {
       notification.style.top = `${y}px`;
 
       document.body.appendChild(notification);
-    }, i * 200);
+    }, i * 500);
   }
 }
 
@@ -48,7 +48,3 @@ document.addEventListener("DOMContentLoaded", function () {
   footer.innerHTML = encodedText; 
   document.body.appendChild(footer); 
 });
-
-
-
-
